@@ -43,13 +43,29 @@
     text-align: center;
 }
 
-.wildlife-thumb, .landscape-thumb {
+#wildlife-thumb, #landscape-thumb {
     display: grid;
-    grid-template-columns: 250px 250px;
-    
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
 }
 
 img {
-    height: 100px;
-    width: 250px;
+    height: auto;
+    width: 100%;
+    opacity: 0.75;
 }
+img:hover {
+    opacity: 1.0;
+}
+
+.portrait {
+    grid-row-start: span 3;
+}
+.twoCol {
+    grid-column-start: span 2;
+}
+
+/* .box {
+    border: 2px solid black;
+    padding: 1px;
+} */
