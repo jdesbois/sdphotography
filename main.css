@@ -37,7 +37,7 @@
 }
 
 .row {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #contact {
     text-align: center;
@@ -49,12 +49,12 @@
     grid-gap: 5px;
 }
 
-img {
+.image {
     height: auto;
     width: 100%;
     opacity: 0.75;
 }
-img:hover {
+.image:hover {
     opacity: 1.0;
 }
 
@@ -65,7 +65,17 @@ img:hover {
     grid-column-start: span 2;
 }
 
-/* .box {
-    border: 2px solid black;
-    padding: 1px;
-} */
+
+#profile-pic {
+    height: 300px;
+    width: auto;
+}
+#about-me-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+}
+div > p {
+    text-align: justify;
+    padding: 20px;
+}
