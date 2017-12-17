@@ -45,11 +45,11 @@
 
 .wildlife-thumb, .landscape-thumb {
     display: grid;
-    width: 500px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 250px 250px;
     
 }
-.img-fluid {
-  height: 200px;
+
+img {
+    height: 100px;
+    width: 250px;
 }
