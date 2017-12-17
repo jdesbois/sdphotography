@@ -1,0 +1,44 @@
+
+.navbar-default {
+    background: none;
+    font-size: 1.4em; 
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url("images/lenses.jpg");
+    background-size: cover;
+    opacity: 0.85;
+
+}
+.jumbo-text {
+    margin-top: 10%;
+
+}
+.jumbo-text h1 {
+    text-shadow: 1px 2px 1px #000,
+    -2px -2px 1px #000,
+    -2px 2px 1px #000,
+     2px -2px 1px #000;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.row {
+    margin-top: 50px;
+}
+#contact {
+    text-align: center;
+}
