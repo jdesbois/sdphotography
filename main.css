@@ -42,3 +42,14 @@
 #contact {
     text-align: center;
 }
+
+.wildlife-thumb, .landscape-thumb {
+    display: grid;
+    width: 500px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.img-fluid {
+  height: 200px;
+}
