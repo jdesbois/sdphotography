@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stephen Davies Photography</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,7 +14,7 @@
           
     <div class="jumbotron">
         <div class="container">
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default hidden-mobile">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Stephen Davies Photography</a></li>
                 </ul>
@@ -24,6 +24,7 @@
                     <li> <a href="#portfolio">Portfolio</a></li>
                     <li> <a href="#contact">Contact</a></li>
                     <li> <a href="https://www.facebook.com/stephendaviesphotography/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/stevejdavies/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>         
             </nav>
             <hr>
@@ -38,23 +39,17 @@
     </div>
     <div class="container">
         <section id="aboutme" class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-10">
-                <div id="about-me-grid">
-                    <div>
+                    <div id="profile" class="col-sm-6">
                         <h3>Stephen Davies</h3>
                         <img id="profile-pic" src="images/steve.jpg" alt="">
                     </div>
-                    <div>
+                    <div class="col-sm-6"> 
                         <h3>About Me</h3>
                         <br>
                         <p>I was born in Sheffield and moved to Scotland in 2000 and I am currently living in Central Scotland. I recently took up photography as a hobby after I realised I enjoyed trying to capture moments on my mobile phone, and I naturally progressed onto a DSLR and joined a local Camera Club in Clackmannanshire. The club then inspired me to try to improve my photography through a series of talks, presentations and fellow member advice. </p> 
                         <p> My first lens purchase was a wide angle lens for landscape photography as this was my main interest. I quickly became interested in all aspects of photography with wildlife being my current favoured subject. </p> 
                         <p>I am lucky to live in Scotland as it is arguably the best place in the UK for both landscape and wildlife photography, and it also provides a great opportunity to catch the Northern Lights (although I am yet to be lucky enough with the weather and the conditions to get 'That' shot) I love travelling around Scotland with my partner and enjoying all that this beautiful country has to offer. I also love travelling and I take the opportunity to try to capture the special moments on camera. I am also a regular visitor to Australia and I aim to capture it's landscape and wildlife on my travels. </p>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-1"></div>  
         </section>
         <br>
         <hr>
@@ -63,7 +58,7 @@
     <div class="container">
         <section class="row" id="portfolio">
                     <div id="landscape" class="col-sm-6">
-                        <h1>Landscape</h1>
+                        <a href="landscape.html"><h1>Landscape</h1>
                         <div id="landscape-thumb">
                             <div class="box"> <img class="image" src="images/Landscape/Augusta-7.jpg" alt=""></div> 
                             <div class="box"> <img class="image" src="images/Landscape/Road-1.jpg" alt=""></div>
@@ -71,18 +66,17 @@
                             <div class="box"> <img class="image" src="images/Landscape/StFillansMirrorman.jpg" alt=""></div>
                             <div class="box twoCol"> <img class="image" src="images/Landscape/Loch Lubhair-4.jpg" alt=""></div>
                             
-                        </div>
+                        </div></a>
                     </div>
                     <div id="wildlife" class="col-sm-6">
-                        <h1>Wildlife</h1>
+                        <a href="wildlife.html"><h1>Wildlife</h1>
                         <div id="wildlife-thumb">
                             <div class="box"> <img class="image" src="images/Wildlife/DeerLoch-2.jpg" alt=""></div>
                             <div class="box"> <img class="image" src="images/Wildlife/Shutterstock-7.jpg" alt=""></div>
                             <div class="box portrait"> <img class="image" src="images/Wildlife/Rottnest Quokka -9.jpg" alt=""></div>
                             <div class="box"> <img class="image" src="images/Wildlife/Pelican-1.jpg" alt=""></div>
-                            
-                            <div class="box"> <img class="image" src="images/Wildlife/Premium/Salmon.jpg" alt=""></div>
-                        </div>
+                            <div class="box"> <img class="image" src="images/Wildlife/BankVole.jpg" alt=""></div>
+                        </div></a>
                     </div>
         </section>
         <br>
@@ -94,6 +88,7 @@
             <div class="col-sm-6" id="contact">
                 <ul id="contact-grid">
                     <li><a href="https://www.facebook.com/stephendaviesphotography/" target="_blank"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/stevejdavies/" target="_blank"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
                     <li><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></li>
                 </ul>
             </div>

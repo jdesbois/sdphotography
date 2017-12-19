@@ -1,0 +1,24 @@
+#gallery-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+}
+.item {
+    position: relative;
+    display: flex;
+    float:left;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+.image {
+    height: auto;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+h1 {
+    text-align: center;
+}

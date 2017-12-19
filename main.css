@@ -1,3 +1,10 @@
+@media screen and (max-width: 736px) {
+    .hidden-mobile {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+}
 
 .navbar-default {
     background: none;
@@ -71,15 +78,15 @@
     height: 400px;
     width: auto;
     border-radius: 20%;
+    margin: auto;
 }
-#about-me-grid {
-    display: grid;
-    grid-template-columns: 1fr 7fr;
-    grid-gap: 10px;
+#profile {
+    text-align: center;
 }
+
 div > p {
     text-align: justify;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 div > h3 {
     text-align: center;
@@ -92,7 +99,21 @@ hr {
 }
 
 #contact-grid {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
     list-style: none;
+}
+#contact-grid > li {
+    display: inline-block;
+    margin: 25px;
+}
+a {
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
 }
