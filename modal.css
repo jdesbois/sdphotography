@@ -14,8 +14,8 @@
 #modal-image {
   margin: auto;
   display: block;
-  height: 80vh;;
-  max-width: 85%;
+  height: 80vh;
+  max-width: 90%;
 }
 #close {
     position: absolute;
